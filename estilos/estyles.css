@@ -1,0 +1,248 @@
+.estilos{
+    background-color: ghostwhite ;
+    
+    margin: 0px;
+    
+    
+    
+}
+
+.scout{
+    background-color: orange;
+    width: 400px;
+    border: 5px solid orangered;
+    margin: 5px 500px 5px 500px;
+
+}
+.card img{
+    
+}
+
+.h2{
+   padding: 5px 50px 5px 50px;
+   
+  
+    
+}
+
+header{
+    background-color: orange;
+    border: 2px;
+}
+
+.soldier{
+    background-color: orange;
+    width: 400px;
+    border: 5px solid orangered;
+    margin: 5px 500px 5px 500px;
+}
+
+.titulo{
+    background-color: orangered;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.pyro{
+    background-color: orange;
+    border: 5px  solid orangered;
+    width: 400px;
+    margin: 5px 500px 5px 500px;
+
+
+}
+
+
+
+.demoman{
+    background-color: orange;
+    border: 5px  solid orangered;
+    width: 400px;
+    margin: 5px 500px 5px 500px;
+
+
+}
+
+.heavy{
+    background-color: orange;
+    border: 5px  solid orangered;
+    width: 400px;
+    margin: 5px 500px 5px 500px;
+
+}
+
+
+.ingeniero{
+    background-color: orange;
+    border: 5px  solid orangered;
+    width: 400px;
+    margin: 5px 500px 5px 500px;
+
+}
+
+.medic{
+    background-color: orange;
+    border: 5px  solid orangered;
+    width: 400px;
+    margin: 5px 500px 5px 500px;
+
+}
+
+.sniper{
+    background-color: orange;
+    border: 5px  solid orangered;
+    width: 400px;
+    margin: 5px 500px 5px 500px;
+
+}
+
+.spy{
+    background-color: orange;
+    border: 5px  solid orangered;
+    width: 400px;
+    margin: 5px 500px 5px 500px;
+}
+
+.seccion{
+    background-color: gray;
+}
+
+footer{
+    background-color: orange;
+}
+
+.foto{
+    width: 100%;
+}
+
+.padre_parrafo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.contenedor_limite{
+    margin: 0 auto;
+    background-color: gray;
+    border: 5px solid;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor_limite_2{
+    margin: 0 auto;
+    background-color: blue;
+    border: 5px solid;
+    padding: 25px;
+}
+
+
+.media{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.card{
+    background-color: orange;
+    width: 400px;
+    border: 5px solid orangered;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+
+
+.clases{
+    background-color: orange;
+    border: 5px solid black;
+    
+    justify-content: space-between;
+    width: 400px;
+    margin: 5px 500px 5px 500px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulos{
+    background-color: gray;
+}
+
+
+.parrafo{
+    background-color: gray;
+    display: flex;
+    border: 5px solid black;
+    text-align: center;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.card_inicial{
+    display: flex;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    width: 400px;
+    flex-direction: column;
+    flex: 50%;
+    
+}
+
+
+.menu{
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.seccion{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+
+.info_card{
+    
+    border: 2px solid black;
+    background-color: aliceblue;
+
+}
+.tituloss{
+    background-color: cornflowerblue;
+    justify-content: space-between;
+}
+
+
+@media (max-widith:300px){
+    .parrafo{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .seccion{
+        flex-direction: column;
+    }
+}
+
+.p{
+    font-size: 24px;
+    margin: 2px;
+}
